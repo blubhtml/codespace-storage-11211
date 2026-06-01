@@ -1,9 +1,0 @@
-chmod +x ~/start-cloud-drive.sh
-~/start-cloud-drive.sh
-
-ps aux | grep dufs
-
-
-#for changing the file
-
-nano ~/start-cloud-drive.sh
