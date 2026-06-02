@@ -1,6 +1,4 @@
-nohup ~/dufs /workspaces/codespace-storage -p 6666 --allow-all > ~/dufs.log 2>&1 &
-
-ps aux | grep dufs
+~/dufs /workspaces/codespace-storage -p 6666 --allow-all > ~/dufs.log 2>&1 &
 
 
 #for changing the file
@@ -8,21 +6,9 @@ ps aux | grep dufs
 nano ~/start-cloud-drive.sh
 
 
-kill it
+to kill server
 
 fuser -k 6666/tcp
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
