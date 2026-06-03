@@ -1,4 +1,4 @@
-~/dufs /workspaces/codespace-storage-11211 -p 6666 --allow-all > ~/dufs.log 2>&1 &
+~/dufs /workspaces/codespace-storage-11211 -p 6666 --allow-all -a admin:1414@/:rw > ~/dufs.log 2>&1 &
 
 
 #for changing the file
